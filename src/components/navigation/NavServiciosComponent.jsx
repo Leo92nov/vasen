@@ -23,7 +23,7 @@ export default function NavServiciosComponent({ to, children }) {
 
             <div
                 className={`mt-[-0.5rem] ml-[-8px]
-                absolute w-60
+                absolute w-60 z-50
                 transform origin-top
                 transition-all duration-300
                 ${open ? "scale-y-100 opacity-100" : "scale-y-0 opacity-0"}
