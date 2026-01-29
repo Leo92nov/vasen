@@ -1,13 +1,13 @@
 export const FacialComponent = [
-    {label: "Limpieza", to: "/Corporal/ServiciosF"},
-    {label: "Microdermoabración", to: "/Corporal/ServiciosF"},
-    {label: "Dermaplaning", to: "/Corporal/ServiciosF"},
-    {label: "Peeling", to: "/Corporal/ServiciosF"},
-    {label: "Dermapen", to: "/Corporal/ServiciosF"},
-    {label: "Vinoterapia", to: "/Corporal/ServiciosF"},
-    {label: "Mesoterapia", to: "/Corporal/ServiciosF"},
-    {label: "Plasma", to: "/Corporal/ServiciosF"},
-    {label: "Bioestimuladores", to: "/Corporal/ServiciosF"},
-    {label: "Relleno de Labios", to: "/Corporal/ServiciosF"},
-    {label: "Toxina Botulínica", to: "/Corporal/ServiciosF"}
+    {label: "Limpieza", to: "/Facial/Limpieza"},
+    {label: "Microdermoabración", to: "/Facial/Microdermoabración"},
+    {label: "Dermaplaning", to: "/Facial/Dermaplaning"},
+    {label: "Peeling", to: "/Facial/Peeling"},
+    {label: "Dermapen", to: "/Facial/Dermapen"},
+    {label: "Vinoterapia", to: "/Facial/Vinoterapia"},
+    {label: "Mesoterapia", to: "/Facial/Mesoterapia"},
+    {label: "Plasma", to: "/Facial/Plasma"},
+    {label: "Bioestimuladores", to: "/Facial/Bioestimuladores"},
+    {label: "Relleno de Labios", to: "/Facial/Relleno-de-Labios"},
+    {label: "Toxina Botulínica", to: "/Facial/Toxina-Botulínica"}
 ]

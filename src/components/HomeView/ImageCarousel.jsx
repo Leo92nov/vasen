@@ -21,7 +21,7 @@ export default function ImageCarousel() {
   }, []);
 
   return (
-    <section className="relative w-[80%] h-[720px] overflow-hidden mx-auto">
+    <section className="relative w-[70%] h-[720px] overflow-hidden mx-auto">
       
       {images.map((img, index) => (
         <img
