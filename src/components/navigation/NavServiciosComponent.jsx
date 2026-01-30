@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
-import { CorporalComponent } from "./CorporalCommponent"
+import { getServices } from "../../asyncmock"
+
+
 export default function NavServiciosComponent({ to, children }) {
 
     const [open, setOpen] = useState(false)
+    const services = getServices("corporal")
 
     return <>
         <div
@@ -30,18 +33,18 @@ export default function NavServiciosComponent({ to, children }) {
                 `}
             >
                 <ul className="bg-[#1c1c1b] rounded-md overflow-hidden">
-                    {CorporalComponent.map((item, index) => (
+                    {services.map((serv) => (
                         <li
-                            key={index}
                             className="h-8 flex items-center pl-2
                             text-[#D8D3C4] text-lg
                             hover:bg-[#8C6A2F] italic
                             transition-colors duration-500"
                         >
-                            <Link to={item.to}>{item.label}</Link>
+                            <Link to={`/Corporal/${serv.id}`}>{serv.title}</Link>
                         </li>
                     ))}
                 </ul>
             </div>
         </div>
-    </>}
+    </>
+}

@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import { getFacialServ } from "../asyncmock"
+import { getIdServices } from "../asyncmock"
 import { useEffect, useState } from "react"
 
 export default function SingleServ() {
@@ -9,8 +9,8 @@ export default function SingleServ() {
     const [servicio, setServicio] = useState({})
 
     useEffect(() => {
-        setServicio(getFacialServ(servid))
-    })
+        setServicio(getIdServices(Number(servid)))
+    },[servid])
 
     return <>
         <div className="flex flex-col items-center justify-center">

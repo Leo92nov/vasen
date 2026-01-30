@@ -7,6 +7,7 @@ import Facial from './components/FacialView/Facial'
 import Corporal from './components/CorporalView/Corporal'
 import Nosotras from './components/NosotrasView/Nosotras'
 import SingleServ from './components/SingleServ'
+import Aparatologia from './components/AparatologiaView/Aparatologia'
 
 function App() {
 
@@ -23,6 +24,9 @@ function App() {
       <Route exact path='/Facial' element={<Facial/>}></Route>
       <Route exact path='/Facial/:servid' element={<SingleServ/>}></Route>
       <Route exact path='/Corporal' element={<Corporal/>}></Route>
+      <Route exact path='/Corporal/:servid' element={<SingleServ/>}></Route>
+      <Route exact path='/Aparatologia' element={<Aparatologia/>}></Route>
+      <Route exact path='/Aparatologia/:servid' element={<SingleServ/>}></Route>
       <Route exact path='/Nosotras' element={<Nosotras></Nosotras>}></Route>
     </Routes>
 

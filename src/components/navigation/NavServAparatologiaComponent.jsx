@@ -3,9 +3,9 @@ import { useState } from "react"
 import { getServices } from "../../asyncmock"
 
 
-export default function NavServFacialComponent({to, children}) {
+export default function NavServAparatologiaComponent({to, children}) {
   
-  const services = getServices("facial")
+  const services = getServices("aparatologia")
   
   
   const [open, setOpen] = useState(false)
@@ -49,7 +49,7 @@ export default function NavServFacialComponent({to, children}) {
                 transition-colors duration-500
               "
             >
-              <Link to={`/Facial/${serv.id}`}>{serv.title}</Link>
+              <Link to={`/Aparatologia/${serv.id}`}>{serv.title}</Link>
             </li>
           ))}
         </ul>
