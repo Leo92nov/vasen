@@ -4,6 +4,7 @@ import NavServFacialComponent from "./NavServFacialComponent.jsx";
 import NavServAparatologiaComponent from "./NavServAparatologiaComponent.jsx";
 import NavServMasajesComponent from "./NavServMasajesComponent.jsx";
 import NavServCejasComponent from "./NavServCejasComponent.jsx";
+import NavServManicuriaComponent from "./NavServManicuriaComponent.jsx"
 
 
 
@@ -21,7 +22,7 @@ export default function NavBarComponent() {
             <NavServAparatologiaComponent to='../Aparatologia'>Aparatología</NavServAparatologiaComponent>
             <NavServMasajesComponent to='../Masajes'>Masajes</NavServMasajesComponent>
             <NavServCejasComponent to='../Cejas'>Cejas/Pestañas</NavServCejasComponent>
-            <NavServiciosComponent to='../Manicuria'>Manicuría</NavServiciosComponent>
+            <NavServManicuriaComponent to='../Manicuria'>Manicuría</NavServManicuriaComponent>
             <NavServiciosComponent to='../Manicuria'>Medicina</NavServiciosComponent>
             <NavButtonComponent to='/Nosotras'>Nosotras</NavButtonComponent>
             <NavButtonComponent to='/Contacto'>Contacto</NavButtonComponent>
