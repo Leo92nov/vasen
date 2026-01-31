@@ -194,24 +194,46 @@ Al tratarse de un procedimiento biocompatible, el riesgo de reacciones adversas 
   categoria: "corporal"
 },
 
-{id:15, title: "Alpha Synergy", description: "descripcion del tratamiento", image:"/servicios/Aparatologia/", categoria: "aparatologia"},
+{id:15, title: "Alpha Synergy", description: "descripcion del tratamiento", image:"/servicios/Aparatologia/alpha-synergy.jpg", categoria: "aparatologia"},
 
 {id:16, title: "Mio Up", description: "descripcion del tratamiento", image:"/servicios/Aparatologia/mio-up.jpeg", categoria: "aparatologia"},
 
-{id:17, title: "Hifu", description: "descripcion del tratamiento", image:"/servicios/Aparatologia/", categoria: "aparatologia"},
+{id:17, title: "Hifu", description: "descripcion del tratamiento", image:"/servicios/Aparatologia/hifu.png", categoria: "aparatologia"},
 
-{id:18, title: "Liposonix", description: "descripcion del tratamiento", image:"/servicios/Aparatologia/", categoria: "aparatologia"},
+{id:18, title: "Liposonix", description: "descripcion del tratamiento", image:"/servicios/Aparatologia/liposonix.png", categoria: "aparatologia"},
 
-{id:19, title: "Pico laser", description: "descripcion del tratamiento", image:"/servicios/Aparatologia/", categoria: "aparatologia"},
+{id:19, title: "Pico laser", description: "descripcion del tratamiento", image:"/servicios/Aparatologia/pico-laser.png", categoria: "aparatologia"},
 
-{id:20, title: "Radiofrecuencia", description: "descripcion del tratamiento", image:"/servicios/Aparatologia/", categoria: "aparatologia"},
+{id:20, title: "Radiofrecuencia", description: "descripcion del tratamiento", image:"/servicios/Aparatologia/radiofrecuencia.png", categoria: "aparatologia"},
 
 {id:21, title: "Depilación Laser", description: "descripcion del tratamiento", image:"/servicios/Aparatologia/depilacion-laser.jpeg", categoria: "aparatologia"},
+
+{id:22, title: "Descontracturantes", description: "descripcion del tratamiento", image:"/servicios/Masajes/", categoria: "masajes"},
+
+{id:23, title: "Drenaje linfático", description: "descripcion del tratamiento", image:"/servicios/Masajes/", categoria: "masajes"},
+
+{id:24, title: "Deportivo", description: "descripcion del tratamiento", image:"/servicios/Masajes/", categoria: "masajes"},
+
+{id:25, title: "Relajantes", description: "descripcion del tratamiento", image:"/servicios/Masajes/", categoria: "masajes"},
+
+
+{id:26, title: "Perfilado de Cejas", description: "descripcion del tratamientoCCCCCCCCCCCCCCCCCCC", image:"/servicios/cejas-pestanas/", categoria: "cejas"},
+{id:27, title: "Extensión de Pestañas", description: "descripcion del tratamiento", image:"/servicios/cejas-pestanas/", categoria: "cejas"},
+{id:28, title: "Lifting", description: "descripcion del tratamiento", image:"/servicios/cejas-pestanas/", categoria: "cejas"},
+{id:29, title: "Tinte de Pestañas", description: "descripcion del tratamiento", image:"/servicios/cejas-pestanas/", categoria: "cejas"},
+
+{id:30, title: "Kapping", description: "descripcion del tratamiento", image:"/servicios/manicuria/", categoria: "manicuria"},
+{id:31, title: "Semipermanente", description: "descripcion del tratamiento", image:"/servicios/manicuria/", categoria: "manicuria"},
+{id:32, title: "Baño de gel", description: "descripcion del tratamiento", image:"/servicios/manicuria/", categoria: "manicuria"},
+{id:33, title: "Soft gel", description: "descripcion del tratamiento", image:"/servicios/manicuria/", categoria: "manicuria"},
+{id:34, title: "Estetica de pies", description: "descripcion del tratamiento", image:"/servicios/manicuria/", categoria: "manicuria"},
+{id:34, title: "Diseño", description: "descripcion del tratamiento", image:"/servicios/manicuria/", categoria: "manicuria"},
+
 
 ]
 
 export const getServices = (categoria) => {
-    return services.filter((serv) => serv.categoria == categoria)
+    return services.filter((serv) => serv.categoria === categoria)
     
 }
 export const getIdServices = (id) => {

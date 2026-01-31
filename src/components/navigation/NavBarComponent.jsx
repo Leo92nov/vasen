@@ -2,7 +2,9 @@ import NavButtonComponent from "./NavButtonComponent";
 import NavServiciosComponent from "./NavServiciosComponent";
 import NavServFacialComponent from "./NavServFacialComponent.jsx";
 import NavServAparatologiaComponent from "./NavServAparatologiaComponent.jsx";
-import { Link } from "react-router-dom";
+import NavServMasajesComponent from "./NavServMasajesComponent.jsx";
+import NavServCejasComponent from "./NavServCejasComponent.jsx";
+
 
 
 export default function NavBarComponent() {
@@ -17,8 +19,8 @@ export default function NavBarComponent() {
             <NavServFacialComponent to='../Facial'>Facial</NavServFacialComponent>
             <NavServiciosComponent to='../Corporal'>Corporal</NavServiciosComponent>
             <NavServAparatologiaComponent to='../Aparatologia'>Aparatología</NavServAparatologiaComponent>
-            <NavServiciosComponent to='../Masajes'>Masajes</NavServiciosComponent>
-            <NavServiciosComponent to='../cejas-pestañas'>Cejas/Pestañas</NavServiciosComponent>
+            <NavServMasajesComponent to='../Masajes'>Masajes</NavServMasajesComponent>
+            <NavServCejasComponent to='../Cejas'>Cejas/Pestañas</NavServCejasComponent>
             <NavServiciosComponent to='../Manicuria'>Manicuría</NavServiciosComponent>
             <NavServiciosComponent to='../Manicuria'>Medicina</NavServiciosComponent>
             <NavButtonComponent to='/Nosotras'>Nosotras</NavButtonComponent>

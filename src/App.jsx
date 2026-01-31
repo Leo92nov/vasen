@@ -8,6 +8,8 @@ import Corporal from './components/CorporalView/Corporal'
 import Nosotras from './components/NosotrasView/Nosotras'
 import SingleServ from './components/SingleServ'
 import Aparatologia from './components/AparatologiaView/Aparatologia'
+import Masajes from './components/MasajesView/Masajes'
+import Cejas from './components/CejasView/Cejas'
 
 function App() {
 
@@ -27,6 +29,10 @@ function App() {
       <Route exact path='/Corporal/:servid' element={<SingleServ/>}></Route>
       <Route exact path='/Aparatologia' element={<Aparatologia/>}></Route>
       <Route exact path='/Aparatologia/:servid' element={<SingleServ/>}></Route>
+      <Route exact path='/Masajes/' element={<Masajes/>}></Route>
+      <Route exact path='/Masajes/:servid' element={<SingleServ/>}></Route>
+      <Route exact path='/Cejas/' element={<Cejas/>}></Route>
+      <Route exact path='/Cejas/:servid' element={<SingleServ/>}></Route>
       <Route exact path='/Nosotras' element={<Nosotras></Nosotras>}></Route>
     </Routes>
 
