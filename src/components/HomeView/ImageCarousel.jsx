@@ -15,29 +15,31 @@ export default function ImageCarousel() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
-    }, 5000);
+    }, 4000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   return (
     <section className="relative w-[70%] h-[720px] overflow-hidden mx-auto">
       
-      {images.map((img, index) => (
-        <img
-          key={index}
-          src={img}
-          alt=""
-          className={`
-            absolute inset-0 w-full h-full object-fill
-            transition-opacity duration-[1200ms] ease-in-out
-            ${index === current ? "opacity-100" : "opacity-0"}
-          `}
-        />
-      ))}
+      {/* Track */}
+      <div
+        className="flex h-full transition-transform duration-1000 ease-in-out"
+        style={{ transform: `translateX(-${current * 100}%)` }}
+      >
+        {images.map((img, index) => (
+          <img
+            key={index}
+            src={img}
+            alt=""
+            className="w-full h-full object-cover flex-shrink-0"
+          />
+        ))}
+      </div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#1F1F19]/20" />
+      <div className="absolute inset-0 bg-[#1F1F19]/20 pointer-events-none" />
 
       {/* Indicadores */}
       <div className="absolute bottom-6 w-full flex justify-center gap-2 z-10">
