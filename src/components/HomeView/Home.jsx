@@ -18,6 +18,11 @@ export default function Home() {
                 Contamos con capacitación continua y tecnología de última generación, lo que nos permite ofrecer procedimientos innovadores, seguros y altamente efectivos.
             </p>
         </article>
+        <section>
+            <div className="bg-red-100 animate-text-slide">Consegui tu turno</div>
+            <div>Acercate a conocernos</div>
+        </section>
+        
     </>
 
 }

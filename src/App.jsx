@@ -11,6 +11,7 @@ import Aparatologia from './components/AparatologiaView/Aparatologia'
 import Masajes from './components/MasajesView/Masajes'
 import Cejas from './components/CejasView/Cejas'
 import Manicuria from './components/ManicuriaView/Manicuria'
+import Medicina from './components/MedicinaView/Medicina'
 
 function App() {
 
@@ -35,7 +36,10 @@ function App() {
       <Route exact path='/Cejas/' element={<Cejas/>}></Route>
       <Route exact path='/Cejas/:servid' element={<SingleServ/>}></Route>
       <Route exact path='/Manicuria/' element={<Manicuria/>}></Route>
+      <Route exact path='/Manicuria/:servid' element={<SingleServ/>}></Route>
       <Route exact path='/Cejas/:servid' element={<SingleServ/>}></Route>
+      <Route exact path='/Medicina/' element={<Medicina/>}></Route>
+      <Route exact path='/Medicina/:servid' element={<SingleServ/>}></Route>
       <Route exact path='/Nosotras' element={<Nosotras></Nosotras>}></Route>
     </Routes>
 
