@@ -3,7 +3,7 @@ import { useState } from "react"
 import { getServices } from "../../asyncmock"
 
 
-export default function NavServiciosComponent({ to, children }) {
+export default function NavServiciosComponent({ to, children, state }) {
 
     const [open, setOpen] = useState(false)
     const services = getServices("corporal")
@@ -21,7 +21,7 @@ export default function NavServiciosComponent({ to, children }) {
                     via-[#E6C97A] to-[#B8963E] bg-clip-text text-transparent
                     transition-transform duration-300 hover:scale-105 italic"
             >
-                <Link to={to}>{children}</Link>
+                <Link to={to} state={state}>{children}</Link>
             </button>
 
             <div

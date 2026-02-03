@@ -1,9 +1,23 @@
 import { Link } from "react-router-dom";
-import { getServices } from "../../asyncmock";
+import { getServices } from "../asyncmock"
+import { useLocation } from "react-router-dom";
+import { services } from "../asyncmock"
 
-export default function Facial() {
 
-    const serviciosF = getServices("facial")
+export default function ServiciosGenerales() {
+
+    const location = useLocation()
+    const keyword = location.state?.keyword
+    console.log(keyword);
+    
+    const categoriafiltrada = services.find(servicio => servicio.nombre == keyword)
+    
+    console.log(categoriafiltrada);
+    
+
+    const serviciosF = getServices(categoriafiltrada.categoria)
+    console.log(serviciosF);
+    
 
     return <>
 

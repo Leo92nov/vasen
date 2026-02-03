@@ -19,12 +19,12 @@ export default function NavBarComponent() {
             <section><Link to='/'><img className="h-20" src="../src/assets/logov.png" alt="" /></Link></section>
             <NavButtonComponent to='/'>Inicio</NavButtonComponent>
             <NavServFacialComponent to='../Facial'>Facial</NavServFacialComponent>
-            <NavServiciosComponent to='../Corporal'>Corporal</NavServiciosComponent>
-            <NavServAparatologiaComponent to='../Aparatologia'>Aparatología</NavServAparatologiaComponent>
-            <NavServMasajesComponent to='../Masajes'>Masajes</NavServMasajesComponent>
-            <NavServCejasComponent to='../Cejas'>Cejas/Pestañas</NavServCejasComponent>
-            <NavServManicuriaComponent to='../Manicuria'>Manicuría</NavServManicuriaComponent>
-            <NavServMedicinaComponent to='../Medicina'>Medicina</NavServMedicinaComponent>
+            <NavServiciosComponent to='../Corporal' state={{keyword: "Corporal"}}>Corporal</NavServiciosComponent>
+            <NavServAparatologiaComponent to='../Aparatologia' state={{keyword: "Aparatologia"}}>Aparatología</NavServAparatologiaComponent>
+            <NavServMasajesComponent to='../Masajes' state={{keyword: "Masajes"}}>Masajes</NavServMasajesComponent>
+            <NavServCejasComponent to='../Cejas' state={{keyword: "Cejas"}}>Cejas/Pestañas</NavServCejasComponent>
+            <NavServManicuriaComponent to='../Manicuria' state={{keyword: "Manicuria"}}>Manicuría</NavServManicuriaComponent>
+            <NavServMedicinaComponent to='../Medicina' state={{keyword: "Medicina"}}>Medicina</NavServMedicinaComponent>
             <NavButtonComponent to='/Nosotras'>Nosotras</NavButtonComponent>
             <NavButtonComponent to='/Contacto'>Contacto</NavButtonComponent>
             

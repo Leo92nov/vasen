@@ -21,9 +21,8 @@ export default function ImageCarousel() {
   }, [images.length]);
 
   return (
-    <section className="relative w-[70%] h-[720px] overflow-hidden mx-auto">
+    <section className="relative w-[70%] h-[500px] overflow-hidden mx-auto">
       
-      {/* Track */}
       <div
         className="flex h-full transition-transform duration-1000 ease-in-out"
         style={{ transform: `translateX(-${current * 100}%)` }}
@@ -33,15 +32,13 @@ export default function ImageCarousel() {
             key={index}
             src={img}
             alt=""
-            className="w-full h-full object-cover flex-shrink-0"
+            className="w-full h-full object-fit flex-shrink-0"
           />
         ))}
       </div>
 
-      {/* Overlay */}
       <div className="absolute inset-0 bg-[#1F1F19]/20 pointer-events-none" />
 
-      {/* Indicadores */}
       <div className="absolute bottom-6 w-full flex justify-center gap-2 z-10">
         {images.map((_, i) => (
           <span

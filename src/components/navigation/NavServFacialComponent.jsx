@@ -3,7 +3,7 @@ import { useState } from "react"
 import { getServices } from "../../asyncmock"
 
 
-export default function NavServFacialComponent({to, children}) {
+export default function NavServFacialComponent({to, children, state}) {
   
   const services = getServices("facial")
   
@@ -26,7 +26,7 @@ export default function NavServFacialComponent({to, children}) {
           via-[#E6C97A] to-[#B8963E] bg-clip-text text-transparent
           transition-transform duration-300 hover:scale-105 italic">
 
-        <Link to={to}>{children}</Link>
+        <Link to={to} state={state}>{children}</Link>
 
       </button>
 
@@ -49,7 +49,7 @@ export default function NavServFacialComponent({to, children}) {
                 transition-colors duration-500
               "
             >
-              <Link to={`/Facial/${serv.id}`}>{serv.title}</Link>
+              <Link to={`/Facial/${serv.id}`} >{serv.title}</Link>
             </li>
           ))}
         </ul>

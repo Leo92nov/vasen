@@ -15,6 +15,14 @@ export default function Home() {
             <ImageCarousel></ImageCarousel>
         </section>
 
+                <div className="h-[2px] w-[72%] mt-8 mx-auto bg-gradient-to-r from-[#B8961E] via-[#E6C97A] to-[#B8965E]"></div>
+
+        <article className="flex flex-col items-center">
+            <h3 className="mt-12 mb-4 text-2xl text-gray-200">Medicina estética, tecnología & tratamientos a tu servicio</h3>
+            <p className="text-xl w-[80%] ml-auto mr-auto text-gray-200">En Väsen te ofrecemos un espacio exclusivo de estética y bienestar pensado para mujeres y hombres que buscan cuidarse, relajarse y disfrutar de un servicio personalizado. ✨ Nuestro propósito es acompañarte a realzar lo más auténtico y único que hay en vos. 💎 En nuestro centro, la belleza no se impone: se potencia con sutileza, equilibrio y excelencia médica.
+            </p>
+        </article>
+
         <div className="h-[2px] w-[72%] mt-12 mx-auto bg-gradient-to-r from-[#B8961E] via-[#E6C97A] to-[#B8965E]"></div>
 
         <h2 className="text-center text-white text-3xl mt-8">Conoce nuestros servicios</h2>
@@ -30,13 +38,7 @@ export default function Home() {
 
         </section>
 
-        <div className="h-[2px] w-[72%] mt-8 mx-auto bg-gradient-to-r from-[#B8961E] via-[#E6C97A] to-[#B8965E]"></div>
 
-        <article className="flex flex-col items-center">
-            <h3 className="mt-12 mb-4 text-2xl text-gray-200">Medicina estética, tecnología & tratamientos a tu servicio</h3>
-            <p className="text-xl w-[80%] ml-auto mr-auto text-gray-200">En Väsen te ofrecemos un espacio exclusivo de estética y bienestar pensado para mujeres y hombres que buscan cuidarse, relajarse y disfrutar de un servicio personalizado. ✨ Nuestro propósito es acompañarte a realzar lo más auténtico y único que hay en vos. 💎 En nuestro centro, la belleza no se impone: se potencia con sutileza, equilibrio y excelencia médica.
-            </p>
-        </article>
         <div className="h-[2px] w-[72%] mt-8 mx-auto bg-gradient-to-r from-[#B8961E] via-[#E6C97A] to-[#B8965E]"></div>
         <section className="mt-8">
 
