@@ -308,7 +308,7 @@ Este tratamiento estimula la circulación sanguínea y oxigenación de los tejid
 Durante la sesión se realiza una evaluación de las zonas a tratar, aplicando técnicas manuales específicas con presiones profundas, amasamientos y estiramientos, adaptando la intensidad según las necesidades y tolerancia de cada paciente.
 
 El resultado es una sensación inmediata de alivio, mayor bienestar físico, disminución del dolor muscular y una mejora general en la postura y el rendimiento corporal.`,
-  image: "/servicios/Masajes/",
+  image: "/servicios/Masajes/descon.png",
   categoria: "masajes", descripcionR:"El masaje descontracturante está diseñado para aliviar tensiones musculares y reducir el dolor acumulado en zonas específicas del cuerpo. Mediante técnicas de presión profunda y amasamiento, mejora la circulación, relaja los músculos rígidos y promueve bienestar general, recuperando movilidad, liberando estrés y generando una sensación inmediata de relajación y confort."
 },
 
@@ -385,7 +385,7 @@ Este procedimiento es ideal para quienes desean intensificar la mirada, corregir
 Durante la sesión se utiliza material de alta calidad y adhesivos específicos que permiten un resultado seguro, cómodo y sin daños para las pestañas naturales. Además, se brindan indicaciones de mantenimiento para prolongar la durabilidad del tratamiento y conservar la belleza de la mirada.
 
 El resultado es una mirada más profunda y expresiva, con pestañas voluminosas y perfectamente perfiladas, que aportan un acabado sofisticado y natural.`,
-  image: "/servicios/cejas-pestanas/extensions.jpeg",
+  image: "/servicios/cejas-pestanas/pestanas.jpeg",
   categoria: "cejas", descripcionR:"La extensión de pestañas es un tratamiento estético que alarga, densifica y realza la mirada de forma natural. Cada pestaña se adhiere cuidadosamente para conseguir volumen, longitud y curva personalizada, logrando un efecto elegante y duradero sin dañar las pestañas naturales, aportando expresión, profundidad y belleza al rostro."
 },
 
@@ -399,7 +399,7 @@ El tratamiento se realiza de manera personalizada, adaptando la intensidad del r
 Durante la sesión se utilizan productos específicos y técnicas suaves que protegen la salud de las pestañas, evitando daños o irritaciones. Además, se brindan indicaciones de cuidado posterior para prolongar el efecto del lifting y mantener la belleza del vello natural.  
 
 El resultado es una mirada más expresiva y radiante, con pestañas levantadas, definidas y con un aspecto naturalmente impecable.`,
-  image: "/servicios/cejas-pestanas/pestanas.jpeg",
+  image: "/servicios/cejas-pestanas/lifting.jpg",
   categoria: "cejas", descripcionR:"El lifting de pestañas es un tratamiento estético que eleva y curva las pestañas naturales desde la raíz, logrando una mirada más abierta, intensa y definida sin necesidad de extensiones. Mejora la visibilidad de los ojos, aporta efecto de mayor longitud y volumen, y brinda un acabado natural y duradero."
 },
 
@@ -413,7 +413,7 @@ El tratamiento se realiza con productos específicos y seguros, adaptando la ton
 Durante la sesión se cuida la comodidad del cliente, aplicando técnicas precisas que evitan irritaciones y garantizan resultados uniformes. Además, se ofrecen recomendaciones de mantenimiento para prolongar la durabilidad del color y conservar la salud de las pestañas, incluyendo consejos sobre productos y cuidados diarios.  
 
 El resultado es una mirada más intensa y definida, con pestañas visiblemente más oscuras, uniformes y naturales, aportando un acabado elegante y refinado que realza la expresión del rostro de manera armoniosa.`,
-  image:"/servicios/cejas-pestanas/",
+  image:"/servicios/cejas-pestanas/tinte.webp",
   categoria: "cejas", descripcionR:"El tinte de pestañas es un tratamiento estético que oscurece y define las pestañas naturales de manera segura y duradera. Resalta la mirada, aporta intensidad y profundidad al rostro sin necesidad de máscara de pestañas, logrando un acabado natural, elegante y de bajo mantenimiento que realza la belleza de los ojos."
 },
 
@@ -427,7 +427,7 @@ Durante la sesión se trabaja de manera personalizada según el estado de las ma
 El tratamiento incluye técnicas que estimulan la circulación y ayudan a reducir la sequedad y aspereza de la piel, asegurando un resultado duradero y satisfactorio. Además, se brindan recomendaciones para el mantenimiento en casa, prolongando los efectos del cuidado profesional.  
 
 El resultado es unas manos más suaves, uñas fortalecidas y una piel revitalizada, con un acabado estético y elegante que refleja salud y bienestar general.`,
-  image:"/servicios/manicuria/",
+  image:"/servicios/manicuria/kapping.webp",
   categoria: "manicuria", descripcionR:"El Kapping es un tratamiento de manicura avanzada que fortalece y protege las uñas naturales mediante técnicas de recubrimiento y modelado profesional. Mejora la resistencia, uniformidad y apariencia de las uñas, ofreciendo un acabado elegante y duradero, mientras hidrata y cuida la cutícula, dejando manos y uñas saludables, fuertes y estéticamente impecables."
 },
 
@@ -441,7 +441,7 @@ Durante la sesión se aplica cuidadosamente una base, el color seleccionado y un
 El procedimiento también incluye cuidados específicos para evitar debilitamiento de la uña, y se brinda asesoramiento sobre la correcta aplicación de productos de mantenimiento en casa. Esto garantiza que las uñas permanezcan fuertes, brillantes y saludables durante más tiempo.  
 
 El resultado es unas uñas con color uniforme, brillo intenso y un acabado profesional, aportando elegancia y cuidado a las manos de forma duradera y estética.`,
-  image:"/servicios/manicuria/",
+  image:"/servicios/manicuria/semip.jpg",
   categoria: "manicuria", descripcionR:"El esmaltado semipermanente es un tratamiento de manicura que ofrece color duradero y brillante en las uñas, resistiendo desgaste y desconchados por semanas. Protege la superficie natural, facilita el mantenimiento y aporta un acabado impecable, elegante y profesional, manteniendo las uñas saludables, fuertes y con un look cuidado y sofisticado."
 },
 
@@ -455,7 +455,7 @@ Durante la sesión se realiza un cuidado previo de las uñas y cutículas, segui
 El tratamiento también incluye recomendaciones de cuidado posterior para mantener la salud de las uñas, prolongar la duración del gel y conservar la apariencia impecable de las manos. Además, contribuye a fortalecer la uña natural y mejorar su textura.  
 
 El resultado es unas uñas con color vibrante, brillo intenso y un acabado profesional, ofreciendo elegancia, protección y belleza duradera para las manos.`,
-  image:"/servicios/manicuria/",
+  image:"/servicios/manicuria/banogel.png",
   categoria: "manicuria", descripcionR:"El baño de gel es un tratamiento de manicura que fortalece, hidrata y aporta un acabado brillante y duradero a las uñas naturales. Proporciona protección contra quiebres y descamación, mejora la apariencia, facilita el mantenimiento diario y deja las uñas con un look elegante, cuidado y saludable."
 },
 
@@ -469,7 +469,7 @@ Durante la sesión se prepara cuidadosamente la uña natural, aplicando producto
 El procedimiento también incluye cuidados y recomendaciones posteriores, asegurando que las uñas permanezcan fuertes, protegidas y con un acabado uniforme durante más tiempo. Además, contribuye a mejorar la textura de la uña natural y evita roturas o debilitamiento.  
 
 El resultado es unas uñas con forma perfecta, brillo intenso y acabado profesional, ofreciendo elegancia, cuidado y belleza duradera para las manos.`,
-  image:"/servicios/manicuria/",
+  image:"/servicios/manicuria/sg.png",
   categoria: "manicuria", descripcionR:"El Soft Gel es un tratamiento de manicura que refuerza y protege las uñas naturales con un recubrimiento flexible y ligero. Aporta resistencia, forma y brillo duradero sin dañar la uña, facilitando su crecimiento saludable, manteniendo un acabado elegante y profesional, ideal para un look cuidado y sofisticado."
 },
 
@@ -512,7 +512,7 @@ Durante la sesión se realiza un cuidado personalizado según las necesidades de
 El tratamiento incluye maniobras que estimulan la circulación y promueven el bienestar general, aliviando la sensación de pesadez y cansancio. Además, se brindan recomendaciones de mantenimiento para prolongar los efectos del tratamiento y mejorar la estética de las piernas de forma duradera.  
 
 El resultado es unas piernas más ligeras, firmes y con un aspecto estético armonioso, ofreciendo bienestar, confort y belleza de manera natural.`,
-  image:"/servicios/medicina/",
+  image:"/servicios/medicina/flebo.png",
   categoria: "medicina", descripcionR:"El tratamiento estético de flebología está diseñado para mejorar la salud y apariencia de las venas. Combate venas varicosas, arañas vasculares y problemas circulatorios leves, aliviando molestias y previniendo complicaciones. Favorece la circulación, mejora la estética de las piernas y aporta confort, bienestar y una apariencia más saludable y tonificada."
 },
 

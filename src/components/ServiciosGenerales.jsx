@@ -22,7 +22,7 @@ export default function ServiciosGenerales() {
     return <>
 
 
-        <h1 className="text-center text-white text-3xl pt-8">Nuestros Tratamientos faciales </h1>
+        <h1 className="text-center text-white text-3xl pt-8">{keyword} </h1>
 
 
 
