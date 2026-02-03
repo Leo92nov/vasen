@@ -1,6 +1,6 @@
 export default function Testimonio({ nombre, texto, rating, servicio,img }) {
   return (
-    <article className="bg-[#57574C] p-6 rounded-xl">
+    <article className="bg-[#57574C] p-6 rounded-xl w-[400px]">
       <img src={img} alt="" />
       <p className="">{rating}</p>
       <p className="text-l mt-3 text-gray-300">{texto}</p>

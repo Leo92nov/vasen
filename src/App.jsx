@@ -12,6 +12,7 @@ import Masajes from './components/MasajesView/Masajes'
 import Cejas from './components/CejasView/Cejas'
 import Manicuria from './components/ManicuriaView/Manicuria'
 import Medicina from './components/MedicinaView/Medicina'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
       <Route exact path='/Nosotras' element={<Nosotras></Nosotras>}></Route>
     </Routes>
 
+    <Footer></Footer>
 
     </BrowserRouter>
     </>
