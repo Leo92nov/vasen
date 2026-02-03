@@ -34,7 +34,7 @@ export default function Footer() {
             </section>
             <section className="pt-16">
 
-                <h4 className=" text-center relative text-2xl font-serif font-light bg-gradient-to-r from-[#B8963E] via-[#E6C97A] to-[#B8963E] bg-clip-text text-transparent transition-transform
+                <h4 className=" pl-3 text-start relative text-2xl font-serif font-light bg-gradient-to-r from-[#B8963E] via-[#E6C97A] to-[#B8963E] bg-clip-text text-transparent transition-transform
                                duration-400 ease-in-out italic">
                     Social
                 </h4>

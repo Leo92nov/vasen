@@ -1,6 +1,8 @@
 import LinkerButtonComponent from "../LinkerButtonComponent";
+import ServiceCard from "../ServiceCard";
 import ImageCarousel from "./ImageCarousel";
 import Testimonio from "./Testimonio";
+import { Link } from "react-router-dom";
 
 export default function Home() {
 
@@ -15,9 +17,17 @@ export default function Home() {
 
         <div className="h-[2px] w-[72%] mt-12 mx-auto bg-gradient-to-r from-[#B8961E] via-[#E6C97A] to-[#B8965E]"></div>
 
-        <section>
-
+        <h2 className="text-center text-white text-3xl mt-8">Conoce nuestros servicios</h2>
+        <section className="h-auto w-[70%] mb-16 flex flex-wrap ml-auto mr-auto gap-8 justify-center">
             
+            <Link to="/Facial"><ServiceCard titulo="Facial" descripcion=" Limpieza profunda que elimina impurezas y células muertas. Mejora la textura y luminosidad de la piel. Ideal para todo tipo de rostros." img ="../../src/assets/servicecards/facial.jpg"></ServiceCard></Link>
+            <Link to="/Corporal"><ServiceCard titulo="Corporal" descripcion=" Tratamiento corporal diseñado para mejorar tu piel. Ayuda a tonificar y revitalizar el cuerpo. Ideal para acompañar rutinas de cuidado personal." img ="../../src/assets/servicecards/corporal.jpg"></ServiceCard></Link>
+            <Link to="Aparatologia"><ServiceCard titulo="Aparatología" descripcion="Tecnología avanzada para el cuidado corporal. Ideal para mejorar textura, firmeza y apariencia de la piel. Sesiones rápidas y sin tiempo de recuperación." img ="../../src/assets/servicecards/aparato.webp"></ServiceCard></Link>
+            <Link to="/Masajes"><ServiceCard titulo="Masajes" descripcion=" Tratamientos de masajes personalizados según tus necesidades. Mejoran la circulación y el descanso corporal. Una experiencia de equilibrio y cuidado." img ="../../src/assets/servicecards/masaje.jpg"></ServiceCard></Link>
+            <Link to="/Cejas"><ServiceCard titulo="Cejas/Pestañas" descripcion="Servicios pensados para destacar la expresión de tu rostro. Perfilado, lifting y cuidado de cejas y pestañas. Mirada más intensa y prolija." img ="../../src/assets/servicecards/cejas.jpg"></ServiceCard></Link>
+            <Link to="/Manicuria"><ServiceCard titulo="Manicuria" descripcion="Tratamientos de manicura pensados para el cuidado de tus manos. Técnica, precisión y productos de calidad. Belleza que se nota en cada detalle." img ="../../src/assets/servicecards/manicuria.jpg"></ServiceCard></Link>
+            <Link to="/Medicina"><ServiceCard titulo="Medicina" descripcion="Tratamientos médicos para el cuidado de la salud vascular. Cuidado integral de la piel con respaldo médico. Tratamientos médicos orientados a la salud íntima femenina." img ="../../src/assets/servicecards/medicina.jpg"></ServiceCard></Link>
+
         </section>
 
         <div className="h-[2px] w-[72%] mt-8 mx-auto bg-gradient-to-r from-[#B8961E] via-[#E6C97A] to-[#B8965E]"></div>
