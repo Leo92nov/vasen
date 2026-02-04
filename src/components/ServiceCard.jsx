@@ -1,8 +1,10 @@
-export default function ServiceCard({ titulo, descripcion, img }) {
+export default function ServiceCard({ titulo, descripcion, img, }) {
+
 
     return <>
     
-            <article className="w-[400px] mt-8 rounded-xl ml-auto mr-auto flex border-2 border-black h-auto bg-[#57574C] transition-transform duration-200 hover:scale-105 cursor-pointer">
+           
+             <article className="w-[400px] mt-8 rounded-xl ml-auto mr-auto flex border-2 border-black h-auto bg-[#57574C] transition-transform duration-200 hover:scale-105 cursor-pointer">
                 <section className="flex flex-col items-center w-full">
                     <div className="w-full border-b-2">
                         <h2 className="font-serif font-light bg-gradient-to-r from-[#B5961E] via-[#E6C97A] to-[#B8963E] bg-clip-text text-transparent transition-transform
@@ -21,7 +23,6 @@ export default function ServiceCard({ titulo, descripcion, img }) {
                     </div>
                 </section>
             </article>
-
     </>
 
 }

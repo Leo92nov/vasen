@@ -526,7 +526,7 @@ Durante la sesión se realiza una evaluación personalizada del tipo y estado de
 El procedimiento también incluye recomendaciones de mantenimiento y cuidados diarios para prolongar los resultados, proteger la piel y prevenir futuras imperfecciones, asegurando un efecto duradero y estético.  
 
 El resultado es una piel más suave, uniforme y radiante, con mejora visible en su textura y apariencia general, ofreciendo bienestar, confort y belleza de manera natural.`,
-  image:"/servicios/medicina/",
+  image:"/servicios/medicina/derma.png",
 categoria: "medicina", descripcionR:"El tratamiento estético dermatológico combina cuidado profesional y tecnología avanzada para mejorar la salud y apariencia de la piel. Trata imperfecciones como manchas, acné, arrugas o flacidez, estimulando la regeneración celular y promoviendo hidratación profunda. Deja la piel más uniforme, luminosa, rejuvenecida y visiblemente saludable, con resultados duraderos y seguros."
 },
 

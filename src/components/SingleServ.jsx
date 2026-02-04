@@ -45,7 +45,7 @@ export default function SingleServ() {
                     <input
                         id="telefono"
                         type="tel"
-                        placeholder="+54 9 11 1234-5678"
+                        placeholder="Tel: +54 9 341 234-5678"
                         pattern="^\+?\d{0,3} ?\d{0,3} ?\d{4,5}-?\d{4}$"
                         className="w-full px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-400 bg-white mt-4"
                     />

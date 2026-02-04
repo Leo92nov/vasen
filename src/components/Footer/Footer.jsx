@@ -1,5 +1,6 @@
 import FooterNavComponent from "../navigation/FooterNavComponent";
 import FooterSocialComponent from "../navigation/FooterSocialComponent";
+import ScrollTop from "../navigation/ScrollTop";
 
 
 export default function Footer() {
@@ -25,7 +26,7 @@ export default function Footer() {
     duration-400
     ease-in-out italic">Links</li>
                     <li>
-                        <FooterNavComponent to='/'>Inicio</FooterNavComponent>
+                        <FooterNavComponent to={'/'}>Inicio <ScrollTop></ScrollTop></FooterNavComponent>
                     </li>
                     <li><FooterNavComponent to='/'>Servicios</FooterNavComponent></li>
                     <li><FooterNavComponent to='/Nosotras'>Nosotras</FooterNavComponent></li>

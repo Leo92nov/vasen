@@ -13,6 +13,7 @@ import Cejas from './components/CejasView/Cejas'
 import Manicuria from './components/ManicuriaView/Manicuria'
 import Medicina from './components/MedicinaView/Medicina'
 import Footer from './components/Footer/Footer'
+import ScrollTop from './components/navigation/ScrollTop'
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-
+    <ScrollTop></ScrollTop>
     <NavBarComponent></NavBarComponent>
 
     <Routes>
@@ -33,14 +34,14 @@ function App() {
       <Route exact path='/Corporal/:servid' element={<SingleServ/>}></Route>
       <Route exact path='/Aparatologia' element={<Aparatologia/>}></Route>
       <Route exact path='/Aparatologia/:servid' element={<SingleServ/>}></Route>
-      <Route exact path='/Masajes/' element={<Masajes/>}></Route>
+      <Route exact path='/Masajes' element={<Masajes/>}></Route>
       <Route exact path='/Masajes/:servid' element={<SingleServ/>}></Route>
-      <Route exact path='/Cejas/' element={<Cejas/>}></Route>
+      <Route exact path='/Cejas' element={<Cejas/>}></Route>
       <Route exact path='/Cejas/:servid' element={<SingleServ/>}></Route>
-      <Route exact path='/Manicuria/' element={<Manicuria/>}></Route>
+      <Route exact path='/Manicuria' element={<Manicuria/>}></Route>
       <Route exact path='/Manicuria/:servid' element={<SingleServ/>}></Route>
       <Route exact path='/Cejas/:servid' element={<SingleServ/>}></Route>
-      <Route exact path='/Medicina/' element={<Medicina/>}></Route>
+      <Route exact path='/Medicina' element={<Medicina/>}></Route>
       <Route exact path='/Medicina/:servid' element={<SingleServ/>}></Route>
       <Route exact path='/Nosotras' element={<Nosotras></Nosotras>}></Route>
     </Routes>
