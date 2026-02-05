@@ -418,7 +418,7 @@ El resultado es una mirada más intensa y definida, con pestañas visiblemente m
 },
 
 {
-  id: 30, nombre:"Manicura",
+  id: 30, nombre:"Manicuría",
   title: "Kapping",
   description: `El tratamiento de Kapping es una técnica estética especializada para el cuidado y embellecimiento de las uñas y la piel de las manos. Este procedimiento combina exfoliación, hidratación profunda y masajes específicos que mejoran la textura de la piel, fortalecen las uñas y proporcionan una apariencia saludable y cuidada.  
 
@@ -432,7 +432,7 @@ El resultado es unas manos más suaves, uñas fortalecidas y una piel revitaliza
 },
 
 {
-  id: 31, nombre:"Manicura",
+  id: 31, nombre:"Manicuría",
   title: "Semipermanente",
   description: `El tratamiento de uñas semipermanentes es una técnica estética que proporciona un acabado duradero, brillante y resistente, combinando belleza y protección para las uñas naturales. Esta técnica permite disfrutar de un color uniforme y sin descascararse durante varias semanas, manteniendo la apariencia impecable de las manos.  
 
@@ -446,7 +446,7 @@ El resultado es unas uñas con color uniforme, brillo intenso y un acabado profe
 },
 
 {
-  id: 32, nombre:"Manicura",
+  id: 32, nombre:"Manicuría",
   title: "Baño de gel",
   description: `El tratamiento de baño de gel es una técnica estética que aporta un acabado brillante, duradero y saludable a las uñas naturales, realzando su color y protegiéndolas del desgaste diario. Este procedimiento ofrece un resultado uniforme y elegante, ideal para quienes buscan unas manos cuidadas y con un aspecto profesional.  
 
@@ -460,7 +460,7 @@ El resultado es unas uñas con color vibrante, brillo intenso y un acabado profe
 },
 
 {
-  id: 33, nombre:"Manicura",
+  id: 33, nombre:"Manicuría",
   title: "Soft gel",
   description: `El tratamiento de Soft Gel es una técnica estética avanzada que combina la belleza y la protección de las uñas naturales, proporcionando un acabado elegante, duradero y flexible. Este procedimiento permite moldear y fortalecer las uñas, manteniendo un aspecto natural y saludable.  
 
@@ -474,7 +474,7 @@ El resultado es unas uñas con forma perfecta, brillo intenso y acabado profesio
 },
 
 {
-  id: 34, nombre:"Manicura",
+  id: 34, nombre:"Manicuría",
   title: "Estetica de pies",
   description: `El tratamiento de estética de pies es un procedimiento integral diseñado para cuidar, embellecer y mantener la salud de los pies. Incluye limpieza profunda, exfoliación, hidratación y cuidado de uñas y cutículas, logrando una apariencia cuidada y agradable al tacto.  
 
@@ -488,7 +488,7 @@ El resultado es unos pies suaves, hidratados y con uñas perfectamente cuidadas,
 },
 
 {
-  id: 35, nombre:"Manicuria",
+  id: 35, nombre:"Manicuría",
   title: "Diseño",
   description: `El tratamiento de diseño de uñas es un procedimiento estético que combina creatividad, precisión y cuidado, permitiendo personalizar el aspecto de las uñas según los gustos y estilo de cada cliente. Este servicio incluye el embellecimiento de la uña mediante formas, colores y detalles artísticos que realzan la estética de las manos.  
 

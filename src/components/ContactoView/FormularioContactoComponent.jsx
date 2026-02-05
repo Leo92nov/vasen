@@ -1,7 +1,11 @@
+import { useState } from "react"
 import { services } from "../../asyncmock"
 
 export default function FormularioContactoComponent() {
 
+    const serviciosGenerales = [...new Set(services.map(serv => serv.nombre))]
+
+    const [servicioSeleccionado, setServicioSeleccionado] = useState()
 
     return <>
 
@@ -14,23 +18,33 @@ export default function FormularioContactoComponent() {
             </section>
 
             <section className="flex justify-between mt-4">
-                <select type="text" className="bg-white rounded-lg w-[48%] h-12 pl-4 focus:outline-none focus:ring-2 focus:ring-gray-400" placeholder="Correo electrónico">
+
+                <select onChange={(e) => setServicioSeleccionado(e.target.value)} type="text" className="bg-white rounded-lg w-[48%] h-12 pl-4 focus:outline-none focus:ring-2 focus:ring-gray-400" placeholder="Correo electrónico">
                     <option value="" hidden>Elegí un servicio</option>
-                    {[...new Set(services.map(serv => serv.nombre))].map(nombre => (
-                        <option key={nombre} value={nombre}>
+
+                    {serviciosGenerales.map(nombre => (
+                        <option id="servicio" key={nombre} value={nombre}>
                             {nombre}
                         </option>
                     ))}
                 </select>
-                <select type="text" className="bg-white rounded-lg w-[48%] h-12 pl-4 focus:outline-none focus:ring-2 focus:ring-gray-400" placeholder="Correo electrónico">
-                    <option value="" hidden>Elegí un servicio</option>
-                    {[...new Set(services.map(serv => serv.nombre))].map(nombre => (
-                        <option key={nombre} value={nombre}>
-                            {nombre}
-                        </option>
-                    ))}
+
+                <select className="bg-white rounded-lg w-[48%] h-12 pl-4">
+
+                    <option value="" hidden>
+                        Elegí un servicio de {servicioSeleccionado}
+                    </option>
+
+                    {services
+                        .filter(serv => serv.nombre === servicioSeleccionado)
+                        .map(serv => (
+                            <option key={serv.id} value={serv.id}>
+                                {serv.title}
+                            </option>
+                        ))}
+
                 </select>
-                
+
             </section>
             <section>
                 <input type="text" className="bg-white rounded-lg w-[100%] mt-4 h-12 pl-4 focus:outline-none focus:ring-2 focus:ring-gray-400" placeholder="Correo electrónico" />
