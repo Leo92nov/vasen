@@ -26,7 +26,7 @@ export default function NavBarComponent() {
             <NavServAparatologiaComponent to='../Aparatologia' state={{keyword: "Aparatologia"}}>Aparatología</NavServAparatologiaComponent>
             <NavServMasajesComponent to='../Masajes' state={{keyword: "Masajes"}}>Masajes</NavServMasajesComponent>
             <NavServCejasComponent to='../Cejas' state={{keyword: "Cejas"}}>Cejas/Pestañas</NavServCejasComponent>
-            <NavServManicuriaComponent to='../Manicuria' state={{keyword: "Manicuria"}}>Manicuría</NavServManicuriaComponent>
+            <NavServManicuriaComponent to='../Manicuria' state={{keyword: "Manicuría"}}>Manicuría</NavServManicuriaComponent>
             <NavServMedicinaComponent to='../Medicina' state={{keyword: "Medicina"}}>Medicina</NavServMedicinaComponent>
             <NavButtonComponent to='/Nosotras'>Nosotras</NavButtonComponent>
             <NavButtonComponent to='/Contacto'>Contacto</NavButtonComponent>
