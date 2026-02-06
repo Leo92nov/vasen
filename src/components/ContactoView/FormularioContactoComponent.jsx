@@ -33,6 +33,7 @@ export default function FormularioContactoComponent() {
             id: crypto.randomUUID(),
             ...contactoForm
         }
+        console.log(contactoFormCreado);
         
 
         await enviarForm(contactoFormCreado)

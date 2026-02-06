@@ -7,11 +7,11 @@ export default function Contacto() {
 
     return <>
 
-        <h1 className="text-white text-3xl text-center pb-8" >Tu momento Vasen empieza acá</h1>
+        <h1 className="text-white text-3xl text-center" >Tu momento Vasen empieza acá</h1>
         <section className="mb-12 w-[70%] mr-auto ml-auto">
 
             <div className="flex gap-4 w-full">
-                <div classNam="w-1/2">
+                <div>
                     <FormularioContactoComponent></FormularioContactoComponent>
                 </div>
                 <div className="w-1/2 mt-12">

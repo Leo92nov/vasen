@@ -6,8 +6,11 @@ export default function ContactCarousel() {
     "../src/assets/carrusel-contacto/2.png",
     "../src/assets/carrusel-contacto/3.png",
     "../src/assets/carrusel-contacto/4.png",
-    "../src/assets/carrusel-contacto/5.jpeg",
+    "../src/assets/carrusel-contacto/5.png",
     "../src/assets/carrusel-contacto/6.jpeg",
+    "../src/assets/carrusel-contacto/7.png",
+    "../src/assets/carrusel-contacto/8.png",
+    "../src/assets/carrusel-contacto/9.png",
   ];
 
   const [current, setCurrent] = useState(0);
