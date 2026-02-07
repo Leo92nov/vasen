@@ -3,11 +3,11 @@ import { useState } from "react"
 import { getServices } from "../../asyncmock"
 
 
-export default function NavServAparatologiaComponent({to, children, state}) {
-  
+export default function NavServAparatologiaComponent({ to, children, state }) {
+
   const services = getServices("aparatologia")
-  
-  
+
+
   const [open, setOpen] = useState(false)
 
   return (
@@ -30,16 +30,20 @@ export default function NavServAparatologiaComponent({to, children, state}) {
 
       </button>
 
-      <div
-        className={`mt-[-0.5rem] ml-[-8px]
-          absolute w-60 z-50
-          transform origin-top
-          transition-all duration-300
-          ${open ? "scale-y-100 opacity-100" : "scale-y-0 opacity-0"}
-        `}
+      <div className={`absolute z-50
+right-0 2xl:left-0
+right-full
+transform
+origin-top-right 2xl:origin-top 2xl:mt-[-18px] 2xl:ml-[-8px]
+transition-all duration-300
+mt-[-5rem]
+${open
+  ? "scale-x-100 scale-y-100 w-70 2xl:scale-x-100 2xl:scale-y-100 opacity-100"
+  : "scale-x-0 scale-y-0 2xl:scale-x-100 2xl:scale-y-0 opacity-0"
+}`}
       >
         <ul className="bg-[#1c1c1b] rounded-md overflow-hidden">
-          
+
           {services.map((serv) => (
             <li
               className=" text-lg

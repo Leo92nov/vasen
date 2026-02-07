@@ -8,7 +8,7 @@ export default function Footer() {
     return <>
         <footer className="bg-black">
 
-            <section className="mt-8  p-8 flex justify-between">
+            <section className="mt-8 p-8 flex flex-wrap justify-between">
 
                 <section>
                     <div className="h-24 w-60 flex flex-col justify-center items-center mb-4" >
@@ -58,7 +58,7 @@ export default function Footer() {
             </section>
             <div className="h-[2px] w-[72%] mt-8 mb-2 mx-auto bg-gradient-to-r from-[#B8961E] via-[#E6C97A] to-[#B8965E]"></div>
 
-            <h2 className="text-white flex justify-center items-center">Vasen medicina Estética y Bienestar <img src="../src/assets/svgs/cr.png" alt="" className="w-3 h-3 mr-2 ml-2"/> 2025 Todos los derechos reservados</h2>
+            <h2 className="text-white pl-4 pb-28 flex justify-center items-center">Vasen medicina Estética y Bienestar <img src="../src/assets/svgs/cr.png" alt="" className="w-3 h-3 mr-2 ml-2"/> 2025 Todos los derechos reservados</h2>
 
         </footer>
     </>
