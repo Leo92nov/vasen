@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 
 export default function ImageCarousel() {
   const images = [
-    "../src/assets/carrusel/c1.png",
-    "../src/assets/carrusel/c2.png",
-    "../src/assets/carrusel/c3.webp",
-    "../src/assets/carrusel/c4.avif",
-    "../src/assets/carrusel/c5.png",
-    "../src/assets/carrusel/c6.png",
+    "/carrusel/c1.png",
+    "/carrusel/c2.png",
+    "/carrusel/c3.webp",
+    "/carrusel/c4.avif",
+    "/carrusel/c5.png",
+    "/carrusel/c6.png",
   ];
 
   const [current, setCurrent] = useState(0);
