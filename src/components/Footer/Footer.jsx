@@ -12,7 +12,7 @@ export default function Footer() {
 
                 <section>
                     <div className="h-24 w-70 flex flex-col justify-center items-center mb-4" >
-                        <img className="h-[100%] w-25" src="../src/assets/logoF.png" alt="" />
+                        <img className="h-[100%] w-25" src="/logoF.png" alt="" />
                         <p className="relative before:absolute before:h-[2px]
                     before:w-0 before:bg-[#B8963E] before:transition-all before:duration-350 text-l font-serif font-light bg-gradient-to-r from-[#B8963E] via-[#E6C97A] to-[#B8963E] bg-clip-text text-transparent transition-transform
                     duration-400 ease-in-out italic">Centro de estetica avanzada</p>
