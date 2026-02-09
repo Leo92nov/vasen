@@ -18,7 +18,7 @@ export default function NavBarComponent() {
 
             {/* LOGO */}
             <Link to="/">
-                <img className="h-20 w-auto" src="../src/assets/logov.png" alt="" />
+                <img className="h-20 w-auto" src="/logov.png" alt="" />
             </Link>
 
             {/* MENU DESKTOP (solo desde 2xl) */}
