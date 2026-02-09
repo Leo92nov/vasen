@@ -2,15 +2,15 @@ import { useEffect, useState } from "react";
 
 export default function ContactCarousel() {
   const images = [
-    "../src/assets/carrusel-contacto/1.png",
-    "../src/assets/carrusel-contacto/2.png",
-    "../src/assets/carrusel-contacto/3.png",
-    "../src/assets/carrusel-contacto/4.png",
-    "../src/assets/carrusel-contacto/5.png",
-    "../src/assets/carrusel-contacto/6.jpeg",
-    "../src/assets/carrusel-contacto/7.png",
-    "../src/assets/carrusel-contacto/8.png",
-    "../src/assets/carrusel-contacto/9.png",
+    "/carrusel-contacto/1.png",
+    "/carrusel-contacto/2.png",
+    "/carrusel-contacto/3.png",
+    "/carrusel-contacto/4.png",
+    "/carrusel-contacto/5.png",
+    "/carrusel-contacto/6.jpeg",
+    "/carrusel-contacto/7.png",
+    "/carrusel-contacto/8.png",
+    "/carrusel-contacto/9.png",
   ];
 
   const [current, setCurrent] = useState(0);

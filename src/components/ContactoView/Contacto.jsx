@@ -44,18 +44,18 @@ const goToInstagram = () => {
                     <MapaComponent></MapaComponent>
 
                     <div className="flex justify-start items-center mt-2 gap-3">
-                        <img className="h-4 mt-2" src="../../src/assets/svgs/pin.png" alt="" />
+                        <img className="h-4 mt-2" src="/svgs/pin.png" alt="" />
                         <h2 className="flex gap-2 text-white text-l mt-2">Federacion 2787, Funes, Santa Fe 2132</h2>
                     </div>
 
 
                     <h2 className="flex text-white mt-2
                                    2xl:mt-2 2xl:flex 2xl:gap-2">
-                        <img src="../../src/assets/svgs/llamar.png" alt="" />
+                        <img src="/svgs/llamar.png" alt="" />
                         +54 9 341 284-1882</h2>
 
                     <div className="flex items-center mt-2">
-                        <img className="w-4 h-4 hover:scale-105 cursor-pointer" onClick={goToInstagram} src="../../src/assets/svgs/ig.png" alt="" />
+                        <img className="w-4 h-4 hover:scale-105 cursor-pointer" onClick={goToInstagram} src="/svgs/ig.png" alt="" />
                         <h2 className="text-white ml-4 hover:scale-105 cursor-pointer" onClick={goToInstagram}
                         >vasenestetica</h2>
                     </div>

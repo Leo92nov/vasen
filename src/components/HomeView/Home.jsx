@@ -133,8 +133,8 @@ export default function Home() {
                     </div>
 
                     <div className="">
-                        <img className="w-full h-[400px] object-fill hidden sm:block" src="./src/assets/homeancho.png" alt="" />
-                        <img className="w-full h-[400px] object-fill sm:hidden" src="./src/assets/homeanchosm.png" alt="" />
+                        <img className="w-full h-[400px] object-fill hidden sm:block" src="/homeancho.png" alt="" />
+                        <img className="w-full h-[400px] object-fill sm:hidden" src="/homeanchosm.png" alt="" />
                     </div>
                 </article>
             </section>
