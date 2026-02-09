@@ -1,19 +1,10 @@
 import FormularioContactoComponent from "./FormularioContactoComponent";
 import MapaComponent from "./MapaComponent";
 import ContactCarousel from "./ContactCarousel"
-import { Link } from "react-router-dom";
 
 
 
 export default function Contacto() {
-    
-const openInstagramInBrowser = () => {
-  window.open(
-    "https://www.instagram.com/vasenestetica/",
-    "_blank",
-    "noopener,noreferrer"
-  );
-};
 
 const goToInstagram = () => {
   window.location.href =
@@ -63,9 +54,7 @@ const goToInstagram = () => {
                         <h2 className="text-white text-l mt-2">Atención: Lunes a viernes: 09:00 hs. a 20:00 hs.</h2>
                         <h2 className="text-white text-l">Sábados: 09:00 hs. a 14:00 hs.</h2>
                         <h2 className="text-white text-l">Domingos: Cerrado</h2>
-<button onClick={openInstagramInBrowser}>
-  Instagram
-</button>
+
                     </div>
                 </div>
             </div>
