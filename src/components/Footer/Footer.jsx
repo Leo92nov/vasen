@@ -41,10 +41,10 @@ export default function Footer() {
                         Social
                     </h4>
                     <section className="flex items-center justify-center">
-                        <section><FooterSocialComponent to="https://www.instagram.com/vasenestetica/"><img className="w-16 h-16" src="../src/assets/ig.svg" alt="" /></FooterSocialComponent></section>
-                        <section><FooterSocialComponent to="https://w.app/bouzlu"><img className="w-12 h-12 ml-2" src="../src/assets/wa.svg" alt="" /></FooterSocialComponent></section>
-                        <section><FooterSocialComponent to="https://www.facebook.com/"><img className="w-12 h-12 ml-2" src="../src/assets/fb.svg" alt="" /></FooterSocialComponent></section>
-                        <section><FooterSocialComponent to="/Contacto"><img className="w-16 h-16" src="../src/assets/pin.svg" alt="" /></FooterSocialComponent></section>
+                        <section><FooterSocialComponent to="https://www.instagram.com/vasenestetica/"><img className="w-16 h-16" src="/ig.svg" alt="" /></FooterSocialComponent></section>
+                        <section><FooterSocialComponent to="https://w.app/bouzlu"><img className="w-12 h-12 ml-2" src="/wa.svg" alt="" /></FooterSocialComponent></section>
+                        <section><FooterSocialComponent to="https://www.facebook.com/"><img className="w-12 h-12 ml-2" src="/fb.svg" alt="" /></FooterSocialComponent></section>
+                        <section><FooterSocialComponent to="/Contacto"><img className="w-16 h-16" src="pin.svg" alt="" /></FooterSocialComponent></section>
                     </section>
                 </section>
                 <section className="pt-16">
