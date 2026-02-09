@@ -37,7 +37,7 @@ export default function NavBarComponent() {
 
             {/* HAMBURGUESA (visible debajo de 2xl) */}
             <button
-                className="2xl:hidden text-amber-400 text-3xl"
+                className="2xl:hidden text-amber-500 text-3xl"
                 onClick={() => setOpen(!open)}
             >
                 ☰
@@ -45,7 +45,7 @@ export default function NavBarComponent() {
 
             {/* MENU MOBILE */}
             {open && (
-                <div className="absolute top-16 right-6 bg-[#57574C] rounded-xl pl-6 flex flex-col items-start shadow-xl z-50 2xl:hidden">
+                <div className="absolute top-16 right-6 bg-[#57574C] rounded-xl pl-2 flex flex-col items-start shadow-xl z-50 2xl:hidden">
 
                     <div onClick={() => setOpen(false)}>
                         <NavButtonComponent to="/">Inicio</NavButtonComponent>

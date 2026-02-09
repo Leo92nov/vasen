@@ -19,7 +19,7 @@ export default function NavServAparatologiaComponent({ to, children, state }) {
 
       <button
 
-        className="h-20 relative before:absolute before:h-[2px]
+        className="2xl:h-20 pt-4 relative before:absolute before:h-[2px]
           before:w-0 before:bg-[#B8963E] hover:before:w-full
           before:transition-all before:duration-300 text-2xl
           font-serif font-light bg-gradient-to-r from-[#B8963E]
@@ -30,17 +30,25 @@ export default function NavServAparatologiaComponent({ to, children, state }) {
 
       </button>
 
-      <div className={`absolute z-50
-right-0 2xl:left-0
-right-full
-transform
-origin-top-right 2xl:origin-top 2xl:mt-[-18px] 2xl:ml-[-8px]
-transition-all duration-300
-mt-[-5rem]
-${open
-          ? "scale-x-100 scale-y-100 w-70 2xl:scale-x-100 2xl:scale-y-100 opacity-100"
-          : "scale-x-0 scale-y-0 2xl:scale-x-100 2xl:scale-y-0 opacity-0"
-        }`}
+      <div className={`
+   absolute z-50
+    right-full top-0
+    w-60 top-4 pr-2
+
+    2xl:right-auto
+    2xl:left-0
+    2xl:top-full
+    2xl:mt-[-20px]
+    2xl:ml-[-12px]
+    2xl:-translate-y-0
+
+    transform transition-all duration-300 ease-out
+    origin-right 2xl:origin-top
+
+    ${open
+      ? "opacity-100 scale-100"
+      : "opacity-0 scale-95 pointer-events-none"}
+  `}
       >
         <ul className="bg-[#1c1c1b] rounded-md overflow-hidden">
 
