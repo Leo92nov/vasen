@@ -40,7 +40,7 @@ export default function Home() {
                     <ServiceCard
                         titulo="Facial"
                         descripcion=" Limpieza profunda que elimina impurezas y células muertas. Mejora la textura y luminosidad de la piel. Ideal para todo tipo de rostros."
-                        img="../../src/assets/servicecards/facial.jpg"
+                        img="/servicecards/facial.jpg"
                     ></ServiceCard>
                 </Link>
 
@@ -48,7 +48,7 @@ export default function Home() {
                     <ServiceCard
                         titulo="Corporal"
                         descripcion=" Tratamiento corporal diseñado para mejorar tu piel. Ayuda a tonificar y revitalizar el cuerpo. Ideal para acompañar rutinas de cuidado personal."
-                        img="../../src/assets/servicecards/corporal.jpg"
+                        img="/servicecards/corporal.jpg"
                     ></ServiceCard>
                 </Link>
 
@@ -56,7 +56,7 @@ export default function Home() {
                     <ServiceCard
                         titulo="Aparatología"
                         descripcion="Tecnología avanzada para el cuidado corporal. Ideal para mejorar textura, firmeza y apariencia de la piel. Sesiones rápidas y sin tiempo de recuperación."
-                        img="../../src/assets/servicecards/aparato.webp"
+                        img="/servicecards/aparato.webp"
                     ></ServiceCard>
                 </Link>
 
@@ -64,7 +64,7 @@ export default function Home() {
                     <ServiceCard
                         titulo="Masajes"
                         descripcion=" Tratamientos de masajes personalizados según tus necesidades. Mejoran la circulación y el descanso corporal. Una experiencia de equilibrio y cuidado."
-                        img="../../src/assets/servicecards/masaje.jpg"
+                        img="/servicecards/masaje.jpg"
                     ></ServiceCard>
                 </Link>
 
@@ -72,7 +72,7 @@ export default function Home() {
                     <ServiceCard
                         titulo="Cejas/Pestañas"
                         descripcion="Servicios pensados para destacar la expresión de tu rostro. Perfilado, lifting y cuidado de cejas y pestañas. Mirada más intensa y prolija."
-                        img="../../src/assets/servicecards/cejas.jpg"
+                        img="/servicecards/cejas.jpg"
                     ></ServiceCard>
                 </Link>
 
@@ -80,7 +80,7 @@ export default function Home() {
                     <ServiceCard
                         titulo="Manicuria"
                         descripcion="Tratamientos de manicura pensados para el cuidado de tus manos. Técnica, precisión y productos de calidad. Belleza que se nota en cada detalle."
-                        img="../../src/assets/servicecards/manicuria.jpg"
+                        img="/servicecards/manicuria.jpg"
                     ></ServiceCard>
                 </Link>
 
@@ -88,7 +88,7 @@ export default function Home() {
                     <ServiceCard
                         titulo="Medicina"
                         descripcion="Tratamientos médicos para el cuidado de la salud vascular. Cuidado integral de la piel con respaldo médico. Tratamientos médicos orientados a la salud íntima femenina."
-                        img="../../src/assets/servicecards/medicina.jpg"
+                        img="/servicecards/medicina.jpg"
                     ></ServiceCard>
                 </Link>
             </section>
