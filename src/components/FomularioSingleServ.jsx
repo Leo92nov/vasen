@@ -42,7 +42,7 @@ export default function FormularioSingleServ() {
 
     return <>
 
-        <form className="w-[800px] h-[auto] p-6 rounded-xl shadow-md bg-[#57574C] mt-12 ml-auto mr-auto"
+        <form className="w-auto ml-4 mr-4 lg:w-[800px] h-[auto] p-6 rounded-xl shadow-md bg-[#57574C] mt-12 lg:ml-auto lg:mr-auto"
             onSubmit={handleSubmit}>
             <h2 className="text-xl text-center mb-4 text-white">Reservá tu turno</h2>
 
@@ -83,7 +83,7 @@ export default function FormularioSingleServ() {
 
             <button
                 type="input"
-                className="bg-black text-white text-lg rounded-lg w-[15%] mt-4 h-12">
+                className="bg-black text-white text-lg rounded-lg w-[auto] pl-1 pr-1 lg:p-0 lg:w-[15%] mt-4 h-12">
 
                 Continuar
         </button>

@@ -24,10 +24,11 @@ export default function ContactCarousel() {
   }, [images.length]);
 
   return (
-    <section className="w-150 h-[800px] relative overflow-hidden mx-auto">
+    <section className="h-[800px] relative overflow-hidden mx-auto w-full
+                        md:w-150">
       
       <div
-        className="flex w-150 h-[800px] transition-transform duration-1000 ease-in-out"
+        className="flex w-full md:w-150 h-[800px] transition-transform duration-1000 ease-in-out"
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
         {images.map((img, index) => (

@@ -26,7 +26,7 @@ export default function ServiciosGenerales() {
 
 
 
-        <section className="h-auto w-[70%] mb-16 flex justify-start flex-wrap ml-auto mr-auto gap-8">
+        <section className="h-auto w-[70%] sm:flex sm:justify-center mb-16 flex flex-wrap ml-auto mr-auto gap-8">
 
             {serviciosF.map((serv) => (<article className="w-[400px] mt-8 rounded-xl ml-4 flex border-2 border-black h-auto bg-[#57574C] transition-transform duration-200 hover:scale-105 cursor-pointer">
                 <Link to={`/Facial/${serv.id}`}>

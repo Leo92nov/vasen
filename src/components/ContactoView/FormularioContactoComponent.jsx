@@ -41,7 +41,9 @@ export default function FormularioContactoComponent() {
 
     return <>
 
-        <form className="w-[800px] h-[auto] p-6 rounded-xl shadow-md bg-[#57574C] mt-12 ml-auto mr-auto"
+        <form className="w-auto h-[auto] p-6 rounded-xl shadow-md bg-[#57574C] mt-12 ml-auto mr-auto
+                        md:w-[700px] 
+                        2xl:w-[800px] "
             onSubmit={handleSubmit}>
 
             <h2 className="text-2xl text-center font-serif font-light bg-gradient-to-r from-[#B8963E] via-[#E6C97A] to-[#B8963E] bg-clip-text text-transparent transition-transform">Reserva tu turno</h2>
@@ -120,7 +122,7 @@ export default function FormularioContactoComponent() {
                 />
             </section>
 
-            <button className="bg-black text-white text-lg rounded-lg w-[15%] mt-4 h-12 transition-transform duration-200 hover:scale-105 cursor-pointer"
+            <button className="bg-black text-white text-lg rounded-lg sm:w-[15%] mt-4 h-12 transition-transform duration-200 hover:scale-105 cursor-pointer"
                 type="submit"
             >Continuar</button>
 

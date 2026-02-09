@@ -16,11 +16,11 @@ export default function SingleServ() {
     return <>
         <div className="flex flex-col items-center justify-center">
             <h1 className="text-white italic mt-8 mb-8 text-3xl">{servicio.title}</h1>
-            <article className="flex w-[70%]">
-                <section className="rounded-lg bg-yellow-100 w-[48%] h-[525px]">
-                    <img className="w-[100%] h-[525px] rounded-lg" src={servicio.image} alt="" />
+            <article className="2xl:flex 2xl:w-[70%] sm:w-[100%] lg:w-[90%] p-2" >
+                <section className="2xl:rounded-lg 2xl:w-[48%] 2xl:h-[525px] flex w-[100%] rounded-lg">
+                    <img className="w-[100%] h-[525px] rounded-lg sm:w-[100%]" src={servicio.image} alt="" />
                 </section>
-                <p className="text-white w-[48%] text-lg pl-6 whitespace-pre-line">{servicio.description}</p>
+                <p className="text-white 2xl:w-[48%] text-lg 2xl:pl-6 whitespace-pre-line 2xl:pt-0 pt-4">{servicio.description}</p>
             </article>
         </div>
         <div className="h-12 bg-[#1f1f19]">
