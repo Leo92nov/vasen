@@ -24,7 +24,7 @@ export default function ContactCarousel() {
   }, [images.length]);
 
   return (
-    <section className="h-[800px] relative overflow-hidden mx-auto w-full
+    <section className="h-[800px] relative overflow-hidden mx-auto w-[600px]
                         md:w-150">
       
       <div
