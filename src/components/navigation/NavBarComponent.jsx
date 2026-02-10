@@ -22,7 +22,7 @@ export default function NavBarComponent() {
             </Link>
 
             {/* MENU DESKTOP (solo desde 2xl) */}
-            <section className="hidden 2xl:flex gap-8">
+            <section className="hidden 2xl:flex gap-8 2xl:gap-4">
                 <NavButtonComponent to="/">Inicio</NavButtonComponent>
                 <NavServFacialComponent to="../Facial" state={{ keyword: "Facial" }}>Facial</NavServFacialComponent>
                 <NavServiciosComponent to="../Corporal" state={{ keyword: "Corporal" }}>Corporal</NavServiciosComponent>
